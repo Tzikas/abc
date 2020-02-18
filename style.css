@@ -1,0 +1,31 @@
+*{
+    transition: all 2s;
+}
+body{
+    background: skyblue;
+    background-image: url('https://us.123rf.com/450wm/olegganko/olegganko1704/olegganko170400124/75473714-cool-seamless-pattern-abstract-spiral-psychedelic-art-background-ve.jpg?ver=6');
+}
+.row{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    background:rgba(255,255,255,.9);
+    width: 150px;
+    height: 150px;
+    margin: 20px;   
+}
+#bio .column{
+    width: 50%;
+    background: red;    
+
+}
+
+.column:hover{
+    background: aqua;
+}
+
+#bio .column:hover{
+    background: yellow;
+}
